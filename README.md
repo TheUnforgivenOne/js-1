@@ -15,7 +15,7 @@ splitAndMerge("My name is John"," ") should return "M y n a m e i s J o h n"
 splitAndMerge("Hello World!",",") should return "H,e,l,l,o W,o,r,l,d,!"
 ```
 
-##### 2) Write a function convert
+#### 2) Write a function convert
 Convert a hash into an array. Nothing more, Nothing less.
 ```javascript
 {name: 'Jeremy', age: 24, role: 'Software Engineer'}
