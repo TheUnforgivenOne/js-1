@@ -1,8 +1,7 @@
 function reverceWords(str) {
-    str = str.split(' ');
-    for (key in str)
-       str[key] = str[key].split('').reverse().join('');
-    return str.join(' ')
+    return str.split(' ').map(function(word) {
+        return word.split('').reverse().join('');
+    }).join(' ');
 }
 
 console.log(reverceWords(' A fun little challenge! '));

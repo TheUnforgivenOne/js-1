@@ -1,8 +1,5 @@
 function hashToArray(hash) {
-    arr = [];
-    for (key in hash)
-        arr.push([key, hash[key]]);
-    return arr
+    return Object.entries(hash)
 }
 
 var hash = {

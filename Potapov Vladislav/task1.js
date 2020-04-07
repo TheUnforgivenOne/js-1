@@ -1,7 +1,6 @@
 function splitAndMerge(str, sp) {
     strWithoutSpaces = str.split(' ').join('');
-    str = strWithoutSpaces.split('').join(sp);
-    return str
+    return strWithoutSpaces.split('').join(sp);
 }
 
 console.log(splitAndMerge("My name is John"," "));
